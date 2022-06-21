@@ -76,8 +76,11 @@ dist
 .tern-port
 # Open WA
 session.data.json
-
 # managed
 **.data.json
 **.node-persist**
+# end managed
+
+# managed
+**_IGNORE_**
 # end managed

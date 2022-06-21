@@ -42,6 +42,7 @@ function start(bot) {
                 args = message.body.slice(prefix.length).trim().split(/ +/g);
                 command = args.shift().toLowerCase();
                 sender = message.sender.pushname;
+                mentions = message.mentionedJidList;
             } else {
                 return;
             }
